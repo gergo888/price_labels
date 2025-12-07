@@ -3,5 +3,5 @@ ROOT=$(dirname $0)/..
 PYTHON=$ROOT/env/bin/python3 
 ODOO=$ROOT/src/odoo/odoo-bin
 
-$PYTHON $ODOO -c $ROOT/price_label_plugin.cfg "$@" 
+$PYTHON $ODOO -c $ROOT/odoo-gyakorlas.cfg "$@" 
 exit $?
